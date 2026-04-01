@@ -16,3 +16,8 @@ print("Hola, mundo")
 print("Mi nombre es Max")
 print("Hoy empieza mi bootcamp de programación")
 print("Voy a convertirme en desarrolador profesional")
+
+#cd C:\Users\secur\Documents\DEV\proyectos\bootcamp\fase-0
+#git add .
+#git commit -m "feat: ejercicios dia 01 y perfil programador"
+#git push
