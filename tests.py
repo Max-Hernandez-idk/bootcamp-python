@@ -1,7 +1,10 @@
-numeros = 1
-contador = 0
-while numeros != 0:
-    numeros = int(input("Escribe un número: "))
-    if numeros != 0:
-        contador +=1
-        print(f"Cantidad de numeros: {contador}")
+def mayor(a, b):
+    if a > b:
+        return a
+    elif b > a:
+        return b
+    else:
+        return a  # o b, son iguales3))
+    
+print(mayor(12, 5))   # 12
+print(mayor(23, 50))  # 50
