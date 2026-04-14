@@ -1,10 +1,13 @@
-def mayor(a, b):
-    if a > b:
-        return a
-    elif b > a:
-        return b
-    else:
-        return a  # o b, son iguales3))
-    
-print(mayor(12, 5))   # 12
-print(mayor(23, 50))  # 50
+diccionario = {
+    "dinero": 20,
+    "poder": "Mucho",
+    "PC GAMER": "No"
+}
+
+clave = input("Agrega una clave: ")
+valor = input("Agrega un valor")
+try:
+    diccionario = (clave, valor)
+    print(f"{clave}: {valor}")
+except KeyError:
+    print("⚠️ Error: La clave no existe")
